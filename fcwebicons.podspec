@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FCWebicons"
-  s.version      = "0.0.0"
+  s.version      = "0.0.1"
   s.summary      = "Fairhead Creative Webicons are a collection of beautiful SVG icons."
   s.description  = <<-DESC
 FC Webicons is a set of resolution-independent social icons for use on your website. They use feature-detected SVG graphics (with PNG fallbacks) to display the icons over their appropriate negatively indented anchor titles. 
@@ -10,5 +10,8 @@ FC Webicons is a set of resolution-independent social icons for use on your webs
   s.author       = { "adam" => "adam@fairheadcreative.com", "barry" => "barry.allard@gmail.com" }
   s.source       = { :git => "https://github.com/steakknife/fc-webicons-ios-cocoapod.git", :tag => '0.0.0' }
   s.resources = 'resources', 'resources/**/*'
+
+  s.platform = :ios
+  s.dependency 'SVGKit'
 end
 

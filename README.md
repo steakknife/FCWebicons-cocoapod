@@ -13,9 +13,9 @@ This will install icons to your app under `resources/webicons`
 Requirements
 ------------
 
-* iOS: reklis fork of SVGKit https://github.com/reklis/SVGKit
+* iOS: SVGKit pod (included)
 
-* Mac: SVGKit probably needs some help
+* Mac: TODO... SVGKit probably needs some love
 
 
 License
