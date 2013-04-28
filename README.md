@@ -1,4 +1,4 @@
-Installation
+Installation* (not yet a real cocoapod) 
 ------------
 
     pod 'FCWebicons'
