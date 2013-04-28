@@ -10,6 +10,8 @@ Usage
 
 This will install icons to your app under `resources/webicons`
 
+The usage of SVGKit in views is an exercise for the reader (examples welcome).
+
 Requirements
 ------------
 
