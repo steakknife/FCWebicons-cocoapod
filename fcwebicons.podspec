@@ -12,6 +12,5 @@ FC Webicons is a set of resolution-independent social icons for use on your webs
   s.resources = 'resources', 'resources/**/*'
 
   s.platform = :ios
-  s.dependency 'SVGKit'
 end
 
